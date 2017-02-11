@@ -1,0 +1,82 @@
+html, body{
+    /*height: 100vh;
+    max-height: 100vh;*/
+    margin: 0px;
+    /*overflow: hidden;*/
+    padding-bottom: 20px;
+}
+
+
+.table_body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 50vh !important;
+}
+
+.history-list{
+    /*padding-top: 8px;
+    padding-bottom: 8px;*/
+}
+
+.history-list-row{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(50,50,50,1);
+}
+.history-list-header{
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    padding-bottom: 10px; 
+    padding-top: 10px; 
+    background-color: #c9302c;
+}
+
+.history-list-row:hover{
+    background-color: rgba(20,20,20,1);
+}
+
+/* scrollbar*/
+.history-list-header::-webkit-scrollbar-track
+{
+	/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+	background-color: #c9302c;
+}
+
+.history-list-header::-webkit-scrollbar
+{
+	width: 10px;
+	/*background-color: rgba(255,255,255,.1);*/
+}
+
+.history-list-header::-webkit-scrollbar-thumb
+{
+	background-color: #c9302c;
+	/*border: 2px solid #555555;*/
+}
+
+/**/
+
+.table_body::-webkit-scrollbar-track
+{
+	/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+	background-color: #485563;
+}
+
+.table_body::-webkit-scrollbar
+{
+	width: 10px;
+	/*background-color: rgba(255,255,255,.1);*/
+}
+
+.table_body::-webkit-scrollbar-thumb
+{
+	background-color: #f0ad4e;
+	/*border: 2px solid #555555;*/
+}
+
+.iconStatus{
+    display: inline-block;
+    width: 100%;
+    /*height: 50px;*/
+    font-size: 20px;
+}
